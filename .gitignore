@@ -1,0 +1,18 @@
+# data and large media stay out of git (see data/README.md)
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+*.csv
+*.csv.gz
+*.mp4
+*.gif
+*.pptx
+# python / java / editors
+__pycache__/
+*.pyc
+.venv/
+.ipynb_checkpoints/
+*.class
+.DS_Store
+training/out/

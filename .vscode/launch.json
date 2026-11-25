@@ -1,0 +1,11 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    { "name": "Generate data (Python)", "type": "debugpy", "request": "launch",
+      "program": "${workspaceFolder}/simulation/python/pen_simulator.py",
+      "args": ["--out", "data/processed/synthetic_python.csv.gz", "--seed", "11"] },
+    { "name": "Train models", "type": "debugpy", "request": "launch",
+      "program": "${workspaceFolder}/training/train_starter.py",
+      "args": ["data/processed/synthetic_python.csv.gz", "training/out"] }
+  ]
+}

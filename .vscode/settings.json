@@ -1,0 +1,7 @@
+{
+  "python.defaultInterpreterPath": ".venv/bin/python",
+  "files.exclude": { "**/__pycache__": true, "**/.ipynb_checkpoints": true },
+  "files.watcherExclude": { "data/**": true },
+  "editor.formatOnSave": true,
+  "java.project.sourcePaths": ["simulation/java"]
+}

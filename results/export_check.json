@@ -1,0 +1,13 @@
+{
+ "forecast_float_MAE": 0.37500476837158203,
+ "forecast_int8_MAE": 0.3761657774448395,
+ "hazard_float_acc": 0.9746457867263236,
+ "hazard_int8_acc": 0.9740865026099925,
+ "sound_float_acc": 0.9964578672632364,
+ "sound_int8_acc": 0.9966442953020134,
+ "sizes_KB": {
+  "forecast_30min": 5.5,
+  "hazard_early_warning": 5.8,
+  "sound_class": 3.6
+ }
+}
